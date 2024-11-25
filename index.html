@@ -1,34 +1,25 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cartão de Natal</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão de Boas Festas - Natal</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="card">
-    <!-- Luzes de Natal -->
-    <div class="lights">
-      <div class="light"></div>
-      <div class="light"></div>
-      <div class="light"></div>
-      <div class="light"></div>
-      <div class="light"></div>
+    <div class="card">
+        <div class="header">
+            <h1>Feliz Natal e Próspero Ano Novo!</h1>
+            <p class="subheader">Desejamos a você momentos de alegria, amor e união.</p>
+        </div>
+
+        <div class="message">
+            <p>Que o espírito do Natal ilumine seu coração e que o Ano Novo traga muitas realizações, saúde e felicidade para você e sua família!</p>
+        </div>
+        <div class="footer">
+            <p>Com carinho,</p>
+            <p><strong>Sarah Veiga</strong></p>
+        </div>
     </div>
-
-    <!-- Conteúdo do cartão -->
-    <h1>Feliz Natal!</h1>
-    <p>Que a magia desta data ilumine seu coração e sua casa.</p>
-    <button onclick="revealMessage()">Clique para uma surpresa!</button>
-    <div class="hidden-message" id="hiddenMessage">🎄 Boas Festas e um Próspero Ano Novo! 🎅</div>
-  </div>
-
-  <script>
-    function revealMessage() {
-      const message = document.getElementById('hiddenMessage');
-      message.style.display = 'block';
-    }
-  </script>
 </body>
 </html>
